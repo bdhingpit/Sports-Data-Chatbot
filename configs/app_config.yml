@@ -1,0 +1,12 @@
+directories:
+  sqldb_directory: data/sportsdata/nba/sql_nba.db
+
+llm_config:
+    agent_llm_system_role: "You are an SQL expert. Answer the user's question by querying the database.\n
+    Question: {question}\n
+    SQL Query: {query}\n
+    SQL Result: {result}\n
+    Answer: 
+    "
+    engine: "gpt-4o-mini"
+    temperature: 0.0

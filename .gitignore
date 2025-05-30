@@ -1,0 +1,6 @@
+notebooks/*
+.env
+src/utils/get_sportsdata_trial.py
+src/utils/get_sportsdata.py
+src/utils/load_sportsdataio_config.py
+configs/sportsdataio_config.yml
